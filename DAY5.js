@@ -202,12 +202,4 @@ palindrome();
             })
                 ();
             
-//6.return median of two sorted array of same size:
-
-let array1=[1,5,2,3,8,9];
-let array2=[15,20,7,10,4];
-let add = [array1,...array2];
-let array  =add.sort(function compareFn(a,b){     
-   return a-b;    });
-console.log(add);
 
