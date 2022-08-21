@@ -59,11 +59,11 @@ let  fin1 ="";
 let clear1="";
 let palindrome1=()=>{
     for (let i=0; i<palin1.length; i++){
-            fin1 =clear;
+            fin1 =clear1;
         for(let j=palin1[i].length-1;j>=0;j--){
-         fin+=palin1[i][j]+"";
+         fin1+=palin1[i][j]+"";
         }
-        if (palin1[i]===fin){
+        if (palin1[i]===fin1){
       console.log(palin1[i] +" "+"is a palindrome");
         }
     else{
